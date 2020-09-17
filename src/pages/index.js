@@ -9,6 +9,7 @@ const IndexPage = () => (
   <div>
     <h1>Hi from the home page</h1>
     <Link to="/page-2">Go to page 2</Link>
+    <p>This is a p tag to test font variables.</p>
   </div>
 )
 
