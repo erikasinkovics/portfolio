@@ -1,5 +1,20 @@
+// Global css variables
 @import "config/fonts";
 @import "config/colors";
+
+// Components
+@import "components/contact-me";
+@import "components/education";
+@import "components/footer";
+@import "components/intro";
+@import "components/intro";
+@import "components/my-work";
+@import "components/navbar";
+@import "components/profile-picture";
+@import "components/skills";
+
+
+// Global styles
 
 body {
   background-color: $champagnepink;
