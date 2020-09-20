@@ -1,0 +1,17 @@
+.intro {
+     padding: 100px 80px;
+     width: 30%;
+     background: linear-gradient(90deg, rgba(222, 222, 224, 0.2) 43.75%, rgba(196, 196, 196, 0) 77.6%);
+     mix-blend-mode: normal;
+     h1 {
+          letter-spacing: -0.02em;
+          font-size: 40px;
+          margin: 0;
+     }
+     p {
+          color: #3D405B;
+          letter-spacing: 0.16em;
+          font-size: 12px;
+          line-height: 16px;
+     }
+}
