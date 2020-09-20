@@ -1,0 +1,31 @@
+.navbar {
+     background: rgba(255, 255, 255, 1);
+     // backdrop-filter: blur(10px);
+     position: sticky;
+     display: flex;
+     padding: 10px;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.navbar-home {
+     font-size: 14px;
+     font-weight: 900;
+     letter-spacing: -0.06em;
+     color: #60AB9A;
+     padding: 10px;
+     align-items: center;
+
+     h2 {
+          margin: 0;
+     }
+}
+
+.navbar a {
+     text-decoration: none;
+     letter-spacing: 0.05em;
+     color: #3D405B;
+     font-size: 14px;
+     text-transform: uppercase;
+     padding: 10px;
+}
