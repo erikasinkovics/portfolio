@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 //scss
 import "../styles/styles.scss"
 // Normalize is optional up to you
