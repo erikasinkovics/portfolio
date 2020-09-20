@@ -21,11 +21,15 @@
      }
 }
 
-.navbar a {
-     text-decoration: none;
-     letter-spacing: 0.05em;
-     color: #3D405B;
-     font-size: 14px;
-     text-transform: uppercase;
-     padding: 10px;
+.navbar-navigation {
+    padding-right: 100px;
+
+     a {
+          text-decoration: none;
+          letter-spacing: 0.05em;
+          color: #3D405B;
+          font-size: 14px;
+          text-transform: uppercase;
+          padding-left: 20px;
+     }
 }
