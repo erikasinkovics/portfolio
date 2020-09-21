@@ -1,3 +1,11 @@
+@import "effects/icons/icon-bob";
+@if $includeClasses {
+	.#{$nameSpace}-icon-bob {
+		@include icon-bob();
+	}
+}
+
+
 .skills {
      padding: 30px 100px;
      h2 {
@@ -8,8 +16,8 @@
 
 .skill-list {
      display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
      gap: 30px 30px;
      grid-template-areas:
        ". ."
