@@ -1,11 +1,3 @@
-@import "effects/icons/icon-bob";
-@if $includeClasses {
-	.#{$nameSpace}-icon-bob {
-		@include icon-bob();
-	}
-}
-
-
 .skills {
      padding: 30px 100px;
      h2 {
