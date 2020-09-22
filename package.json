@@ -2,7 +2,6 @@
   "name": "portfolio",
   "private": true,
   "description": "This is the portfolio website of full-stack developer, Erika Sinkovics.",
-  "version": "1.0",
   "author": "Erika Sinkovics <erika.sinkovics@outlook.com>",
   "dependencies": {
     "gatsby": "^2.17.4",
@@ -16,6 +15,7 @@
     "gatsby-transformer-sharp": "^2.3.0",
     "gsap": "^2.1.3",
     "hover.css": "^2.3.2",
+    "node-fetch": "^2.6.1",
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
