@@ -6,7 +6,7 @@ const Intro = () => (
     <h1>Erika Sinkovics</h1>
     <p id="jobtitle">Full Stack Developer</p>
     <p>Web developer based in Montréal, Québec</p>
-    <Link to="#">See my resumé</Link>
+    <Link to="#">Download my CV</Link>
   </div>
 )
 
