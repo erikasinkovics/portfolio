@@ -4,6 +4,10 @@
   "description": "This is the portfolio website of full-stack developer, Erika Sinkovics.",
   "author": "Erika Sinkovics <erika.sinkovics@outlook.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "gatsby": "^2.17.4",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",
