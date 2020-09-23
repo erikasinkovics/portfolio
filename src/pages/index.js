@@ -9,6 +9,7 @@ import Navbar from "../components/navbar.js"
 import Socials from "../components/socials.js"
 import Intro from "../components/intro.js"
 import Skills from "../components/skills.js"
+import MyWork from "../components/my-work.js"
 
 const IndexPage = () => (
   <div>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Socials/>
     <Intro/>
     <Skills/>
+    <MyWork/>
   </div>
 )
 
