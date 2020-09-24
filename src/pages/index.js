@@ -10,6 +10,7 @@ import Socials from "../components/socials.js"
 import Intro from "../components/intro.js"
 import Skills from "../components/skills.js"
 import MyWork from "../components/my-work.js"
+import Timeline from "../components/timeline.js"
 
 const IndexPage = () => (
   <div>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <Intro/>
     <Skills/>
     <MyWork/>
+    <Timeline/>
   </div>
 )
 
