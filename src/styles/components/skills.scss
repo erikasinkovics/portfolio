@@ -8,36 +8,62 @@
 
 .skill-list {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 1fr;
-     gap: 50px 50px;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     gap: 30px 30px;
      grid-template-areas:
        ". ."
        ". .";
+     margin-bottom: 25px;
+}
+
+.skill-icon {
+     font-size: 20px;
+     .svg-inline--fa {
+          background-color: $champagnepink;
+          border-radius: 100%;
+     }
+     .laptop {
+          padding: 15px 12.5px
+     }
+     .framework {
+          padding: 10px;
+          font-size: 30px;
+     }
+     .other {
+          font-size: 25px;
+          padding: 12.5px 15.64px
+     }
+     .accounting {
+          font-size: 25px;
+          padding: 12.5px 14.1px
+     }
+}
+
+.skill-card-text {
+     margin-left: 20px;
+     margin-right: 16px;
+     text-align: justify;
 }
 
 .skill-card {
      background: #FFFFFF;
-     box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.05);
-     border-radius: 5px;
+     box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
+     border-radius: 20px;
      padding: 22px 22px;
      margin: 0;
+     display: flex;
      h3 {
           font-size: 20px;
           margin: 0;
           padding-bottom: 10px;
-          margin-left: 20px;
      }
-     ul {
+     p {
           margin: 0;
-          
-     }
-     li {
           font-size: 15px;
           font-weight: 300;
           letter-spacing: 1px;
-          line-height: 22px;
-          color: #122C34;
-          margin: 0;
+          line-height: 20px;
+          color: #122C34;          
      }
 }

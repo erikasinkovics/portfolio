@@ -1,16 +1,16 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 
 const Other = () => (
   <div className="skill-card">
-    <h3>Technical Skills</h3>
-    <ul>
-     <li>Protyping in Figma</li>
-     <li>Deploying on Heroku</li>
-     <li>Git</li>
-     <li>GitHub</li>
-     <li>SQlite</li>
-     <li>PostgreSQL</li>
-    </ul> 
+    <div className="skill-icon">
+      <FontAwesomeIcon icon={faCodeBranch} className="other"/>
+    </div>
+    <div className="skill-card-text">
+      <h3>Technical Skills</h3>
+      <p>Cursus lorem est tellus nulla tellus volutpat pellentesque laoreet. Arcu magna purus libero neque eget enim etiam. Ut vestibulum tortor metus vitae, scelerisque amet.</p>
+    </div>
   </div>
 )
 
