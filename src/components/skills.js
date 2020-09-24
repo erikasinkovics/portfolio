@@ -1,8 +1,8 @@
 import React from "react"
-import Languages from "../components/languages.js"
-import Frameworks from "../components/frameworks.js"
-import Other from "../components/other.js"
-import Accounting from "../components/accounting.js"
+import Languages from "../components/skill-cards/languages.js"
+import Frameworks from "../components/skill-cards/frameworks.js"
+import Other from "../components/skill-cards/other.js"
+import Accounting from "../components/skill-cards/accounting.js"
 
 const Skills = () => (
   <div className="skills">
