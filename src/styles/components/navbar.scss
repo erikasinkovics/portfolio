@@ -8,15 +8,15 @@
      justify-content: space-between;
 }
 
-.navbar-home {
+#navbar-home {
      font-size: 16px;
      font-weight: 900;
-     letter-spacing: -0.06em;
-     color: #60AB9A;
+     letter-spacing: -2px;
      padding: 10px;
      align-items: center;
 
      h2 {
+          color: $greensheen;
           margin: 0;
      }
 }
