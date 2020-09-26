@@ -14,6 +14,7 @@
     "gatsby-plugin-offline": "^3.0.16",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-sharp": "^2.3.0",
@@ -26,6 +27,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
+    "scrollreveal": "^4.0.7",
     "smooth-scrollbar": "^8.5.0"
   },
   "devDependencies": {

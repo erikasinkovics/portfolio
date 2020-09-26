@@ -1114,6 +1114,13 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.30"
 
+"@fortawesome/free-brands-svg-icons@^5.14.0":
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.14.0.tgz#98555518ba41bdff82fbae2f4d1bc36cd3b1c043"
+  integrity sha512-WsqPFTvJFI7MYkcy0jeFE2zY+blC4OrnB9MJOcn1NxRXT/sSfEEhrI7CwzIkiYajLiVDBKWeErYOvpsMeodmCQ==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.30"
+
 "@fortawesome/free-solid-svg-icons@^5.14.0":
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.14.0.tgz#970453f5e8c4915ad57856c3a0252ac63f6fec18"
@@ -6439,6 +6446,14 @@ gatsby-plugin-sass@^2.1.20:
     "@babel/runtime" "^7.11.2"
     sass-loader "^7.3.1"
 
+gatsby-plugin-scroll-reveal@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-scroll-reveal/-/gatsby-plugin-scroll-reveal-0.0.7.tgz#5f0d1bcf65bf3c7b3d9d6b69dc4a8896129747ee"
+  integrity sha512-G9slNyz7WNVMwBeGXnQ/FhJc61Q9THkvUIAlft4Uws4QJKn0OdvsDqUAUQkTGKU8hkHhaMAKiugL/8gRYuAZZA==
+  dependencies:
+    intersection-observer "^0.7.0"
+    sal.js "^0.6.2"
+
 gatsby-plugin-sharp@^2.2.32:
   version "2.6.36"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.36.tgz#1b2489d76078dc371ec5808915c58dcd360d202b"
@@ -7922,6 +7937,11 @@ internal-slot@^1.0.2:
     has "^1.0.3"
     side-channel "^1.0.2"
 
+intersection-observer@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
+  integrity sha512-Id0Fij0HsB/vKWGeBe9PxeY45ttRiBmhFyyt/geBdDHBYNctMRTE3dC1U3ujzz3lap+hVXlEcVaB56kZP/eEUg==
+
 into-stream@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/into-stream/-/into-stream-3.1.0.tgz#96fb0a936c12babd6ff1752a17d05616abd094c6"
@@ -8115,6 +8135,18 @@ is-docker@^2.0.0, is-docker@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.1.1.tgz#4125a88e44e450d384e09047ede71adc2d144156"
   integrity sha512-ZOoqiXfEwtGknTiuDEy8pN2CfE3TxMHprvNer1mXiqwkOT77Rw3YVrUQ52EqAOU3QAWDQ+bQdx7HJzrv7LS2Hw==
+
+is-dom-node-list@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/is-dom-node-list/-/is-dom-node-list-1.2.1.tgz#141ded0c66de759d0976800d21370bb908f2950f"
+  integrity sha512-P1H071iT5TGG8pAHslhrLDo/tQLYc8tGuWABVqhGU4l2mm7aDNb9cx2myQ2AujEQO6B2cAujcW4a0/+6UfXInw==
+  dependencies:
+    is-dom-node "^1.0.4"
+
+is-dom-node@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/is-dom-node/-/is-dom-node-1.0.4.tgz#abb18af7133f1e687610cfeb274da1ced342f1c5"
+  integrity sha512-NEnTHKCeyGJTL0cKdzATF8SWzyTMYf5CbNKWBvsXvyMxZG32g+a09qkeCbrfQNLTD85CbPeHb4YjIJCjyzF0yA==
 
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
@@ -9416,6 +9448,11 @@ minipass@^3.0.0:
   integrity sha512-Mgd2GdMVzY+x3IJ+oHnVM+KG3lA5c8tnabyJKmHSaG2kAGpudxuOf8ToDkhumF7UzME7DecbQE9uOZhNm7PuJg==
   dependencies:
     yallist "^4.0.0"
+
+miniraf@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/miniraf/-/miniraf-1.0.0.tgz#5d88e108bbdcb55b4a2ff3da337f24a13a3377e1"
+  integrity sha512-XpvhtJYzVrpXe+JoAthrT9E40NIrSDDMcdHEYL2M+lR/OCas0nadetcBBq/MWYqlgV5aDWVQ3mfAqd+fG6Y/EQ==
 
 minizlib@^2.1.1:
   version "2.1.2"
@@ -11888,6 +11925,11 @@ remark-stringify@^8.1.0:
     unherit "^1.0.4"
     xtend "^4.0.1"
 
+rematrix@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/rematrix/-/rematrix-0.3.0.tgz#4f3f9156aa80ded8a8ca23785f48c6012b6dea4a"
+  integrity sha512-xB/9ZvJIKaDgXX0qkvV9/pLD8zK23A6TVV6F8Vhsl+SrxbBeVYutz5uszxgC6Rt3RP9LZiH8OXaYjr+x6WXWmQ==
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
@@ -12168,6 +12210,11 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
+sal.js@^0.6.2:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/sal.js/-/sal.js-0.6.6.tgz#96bd32e9904ef0706f32d08254c28cad6ec890fb"
+  integrity sha512-XuhEEHRnzWMKGTC3ndZ0pCXPA5xU2rrPhFbb82EIq7M3ctjkJIg/AxnnQwPvn7IZ+I2Ku6kaqNOuA64anDwEjg==
+
 sass-graph@2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/sass-graph/-/sass-graph-2.2.5.tgz#a981c87446b8319d96dce0671e487879bd24c2e8"
@@ -12235,6 +12282,15 @@ schema-utils@^2.6.5:
     "@types/json-schema" "^7.0.5"
     ajv "^6.12.4"
     ajv-keywords "^3.5.2"
+
+scrollreveal@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/scrollreveal/-/scrollreveal-4.0.7.tgz#a1e1a969431ec3b1dc6c19d8d36ed8fd8cfe4412"
+  integrity sha512-49blVbHclANk8PP8T8cjoyqijgshxwkaLWz1qTCaj+7SxlzheLitQT8cWcKQxZSP/2mZ7uias8kr4AHgvf6gnQ==
+  dependencies:
+    miniraf "1.0.0"
+    rematrix "0.3.0"
+    tealight "0.3.6"
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"
@@ -13357,6 +13413,14 @@ tar@^6.0.2:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
+
+tealight@0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/tealight/-/tealight-0.3.6.tgz#14c8071ce3c188972a5cb7d8a5668ca2820b4292"
+  integrity sha512-Dys3N8jFBThD9pNVpPCyUiu6DfWcTBdqWQJIvnAuVaFkGEdrPBJ43070vVbn6sTlLvn2IQK2zFW4FrVIrTo8eQ==
+  dependencies:
+    is-dom-node "^1.0.4"
+    is-dom-node-list "^1.2.1"
 
 temp-dir@^1.0.0:
   version "1.0.0"
