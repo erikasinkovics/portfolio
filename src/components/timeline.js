@@ -2,6 +2,7 @@ import React from "react"
 
 const Timeline = () => (
   <div class="page">
+    <p className="subtitle">Education and professional experience</p>
     <h2>Timeline</h2>
   <div class="timeline">
     <div class="timeline__group">
