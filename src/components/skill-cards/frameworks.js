@@ -9,7 +9,7 @@ const Frameworks = () => (
     </div>
     <div className="skill-card-text">
       <h3>Frameworks</h3>
-      <p>Cursus lorem est tellus nulla tellus volutpat pellentesque laoreet. Arcu magna purus libero neque eget enim etiam. Ut vestibulum tortor metus vitae, scelerisque amet.</p>
+      <p>Built and shipped several projects using <span>Ruby and Rails</span>. Solid foundations in <span>ReactJS</span>. Currently working on the prototype of Rails app with its front-end done in ReactJS and <span>TypeScript</span>.</p>
     </div>
   </div>
 )

@@ -9,7 +9,7 @@ const Languages = () => (
     </div>
     <div className="skill-card-text">
       <h3>Programming Languages</h3>
-      <p>Cursus lorem est tellus nulla tellus volutpat pellentesque laoreet. Arcu magna purus libero neque eget enim etiam. Ut vestibulum tortor metus vitae, scelerisque amet.</p>
+      <p>Solid foundations in <span>Ruby</span>, <span>JavaScript (ES2015)</span>, <span>HTML</span> and <span>CSS (Sass)</span>. <span>Object Oriented Programming</span> principles, <span>MVC</span> pattern.</p>
     </div>
   </div>
 )

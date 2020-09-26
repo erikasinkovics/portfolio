@@ -9,7 +9,7 @@ const Other = () => (
     </div>
     <div className="skill-card-text">
       <h3>Technical Skills</h3>
-      <p>Cursus lorem est tellus nulla tellus volutpat pellentesque laoreet. Arcu magna purus libero neque eget enim etiam. Ut vestibulum tortor metus vitae, scelerisque amet.</p>
+      <p>Collaboration and version control using <span>Git/GitHub</span>. Deploying with <span>Heroku</span>. UI/UX design and prototyping with <span>Figma</span>. Relational databases: <span>ActiveRecord</span>, <span>Sqlite3</span>  and <span>PostgreSQL</span>.</p>
     </div>
   </div>
 )

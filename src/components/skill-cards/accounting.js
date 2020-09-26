@@ -9,7 +9,7 @@ const Accounting = () => (
     </div>
     <div className="skill-card-text">
       <h3>Accounting</h3>
-      <p>Cursus lorem est tellus nulla tellus volutpat pellentesque laoreet. Arcu magna purus libero neque eget enim etiam. Ut vestibulum tortor metus vitae, scelerisque amet.</p>
+      <p>8 years experience in full cycle accounting and reporting in process improvement focused roles. Worked in fast paced, high pressure environments, managed multiple clients' accounts within the same role.</p>
     </div>
 </div>
 )
