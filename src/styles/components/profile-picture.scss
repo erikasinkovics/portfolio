@@ -1,0 +1,15 @@
+.profile-picture {
+     z-index: 1;
+     font-size: 0;
+     background: #FFFFFF;
+     border-radius: 5px 5px 58px 5px;
+     position: absolute;
+     right: 200px;
+     top: 130px;
+     padding: 8px;
+     box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
+
+     img {
+          border-radius: 0px 0px 50px 0px;     
+     }
+}

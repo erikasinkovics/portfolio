@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import ProfilePicture from "../components/profile-picture.js"
 
 
 const Intro = () => (
@@ -12,6 +13,7 @@ const Intro = () => (
     <Link to="#">
       Download my CV<FontAwesomeIcon icon={faFileDownload} />
     </Link>
+    <ProfilePicture/>
   </div>
 )
 
