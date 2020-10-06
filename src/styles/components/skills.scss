@@ -2,7 +2,6 @@
      padding: 30px 150px;
      h2 {
           text-align: center;
-          font-size: 30px;
      }
      .subtitle {
           margin: 0;
@@ -16,36 +15,13 @@
 
 .skill-list {
      display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
      gap: 30px 30px;
      grid-template-areas:
        ". ."
        ". .";
      margin-bottom: 25px;
-}
-
-.skill-icon {
-     font-size: 20px;
-     .svg-inline--fa {
-          background-color: $champagnepink;
-          border-radius: 100%;
-     }
-     .laptop {
-          padding: 15px 12.5px
-     }
-     .framework {
-          padding: 10px;
-          font-size: 30px;
-     }
-     .other {
-          font-size: 25px;
-          padding: 12.5px 15.64px
-     }
-     .accounting {
-          font-size: 25px;
-          padding: 12.5px 14.1px
-     }
 }
 
 .skill-card-text {
@@ -62,21 +38,34 @@
      box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
      border-radius: 20px;
      padding: 22px 22px;
-     margin: 0;
+     // margin: 15px;
+     // max-width: 260px;
      display: flex;
-     h3 {
-          font-size: 20px;
-          margin: 0;
-          margin-top: 8px;
-          padding-bottom: 10px;
-          letter-spacing: 1.5px;
-          font-weight: 600;
+     flex-direction: column;
+     text-align: center;
+     justify-self: center;
+     width: 80%;
+
+     img {
+          height: 80px;
      }
-     p {
-          margin: 0;
-          font-size: 15px;
-          font-weight: 300;
-          letter-spacing: 1px;
-          line-height: 20px;      
+
+     .skill-card-text {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 100%;  
+          h3 {
+               letter-spacing: -1px;
+               font-weight: 600;
+               margin: 30px 0 10px 0;
+          }
+          p {
+               margin: 0;
+               letter-spacing: 1px;
+               align-self: stretch;
+          }
      }
+     
 }
