@@ -5,12 +5,12 @@ import "../styles/styles.scss"
 // Normalize is optional up to you
 import "normalize.css"
 
-import Navbar from "../components/navbar.js"
-import Socials from "../components/socials.js"
-import Intro from "../components/intro.js"
-import Skills from "../components/skills.js"
-import MyWork from "../components/my-work.js"
-import Timeline from "../components/timeline.js"
+import Navbar from "../components/Navbar.js"
+import Socials from "../components/Socials.js"
+import Intro from "../components/Intro.js"
+import Skills from "../components/Skills.js"
+import MyWork from "../components/MyWork.js"
+import Timeline from "../components/Timeline.js"
 
 const IndexPage = () => (
   <div>

@@ -1,6 +1,6 @@
 import React from "react"
 
-const Skill = (props) => (
+const SkillCard = (props) => (
   <div className="skill-card">
     <div className="skill-icon">
       <img src={props.icon} alt={props.icon_text} />
@@ -12,4 +12,4 @@ const Skill = (props) => (
   </div>
 )
 
-export default Skill
+export default SkillCard

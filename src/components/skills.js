@@ -1,5 +1,5 @@
 import React from "react"
-import Skill from "./skill.js"
+import SkillCard from "./SkillCard.js"
 
 import LanguagesImg from "../images/languages.svg"
 import FrontendImg from "../images/frontend.svg"
@@ -11,17 +11,17 @@ const Skills = () => (
       <p className="subtitle">My Expertise</p>
       <h2>Skillset</h2>
       <div className="skill-list">
-        <Skill
+        <SkillCard
           icon={LanguagesImg}
           icon_text="Frameworks & Languages"
           title="Frameworks & Languages" 
           description="Ruby・Rails・JavaScript ES6・ReactJS・AJAX・OOP・MVC pattern・Regex・git & GitHub・command line・npm・yarn"/>
-        <Skill
+        <SkillCard
           icon={FrontendImg}
           icon_text="Front-end Tools"
           title="Front-end Tools"
           description="HTML・CSS・SCSS / Sass・Bootsrap・Prototyping and wireframing・Figma"/>
-        <Skill
+        <SkillCard
           icon={BackendImg}
           icon_text="Back-end Tools"
           title="Back-end Tools"
