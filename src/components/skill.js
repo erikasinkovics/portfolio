@@ -1,7 +1,5 @@
 import React from "react"
 
-import LanguagesImg from "../images/Languages.svg"
-
 const Skill = (props) => (
   <div className="skill-card">
     <div className="skill-icon">
