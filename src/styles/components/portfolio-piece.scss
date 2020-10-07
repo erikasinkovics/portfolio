@@ -1,0 +1,32 @@
+.portfolio-slider {
+     padding: 20px;
+}
+
+.portfolio-piece-card {
+     border-radius: 20px;
+     background-color: white;
+     margin: 30px 20px;
+     box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.04);
+
+     .portfolio-piece-text {
+          padding: 20px;
+     }
+
+     .img-placeholder {
+          background-color: burlywood;
+          height: 250px;
+          border-radius: 20px 20px 0px 0px;
+          
+     }
+
+     small {
+          font-size: 12px;
+          line-height: 90%;
+     }
+
+     .portfolio-piece-links {
+          display: flex;
+          justify-content: space-between;
+          margin: 10px 0px;
+     }
+}

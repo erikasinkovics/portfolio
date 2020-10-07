@@ -1,27 +1,30 @@
 .my-work {
      background-color: $champagnepink;
-     height: 700px;
-     padding: 20px 150px;
-     .portfolio-title {
-          text-align: center;
-          p {
-               margin: 0;
-               margin-top: 30px;
-               margin-bottom: -35px;
-               text-transform: uppercase;
-               font-size: 14px;
-          }
-          h2 {
-               font-size: 30px;
-               // color: white;
-          }
-     }
+     padding: 100px 150px;
+     // .portfolio-title {
+     //      text-align: center;
+     //      p {
+     //           margin: 0;
+     //           margin-top: 30px;
+     //           margin-bottom: -35px;
+     //           text-transform: uppercase;
+     //           font-size: 14px;
+     //      }
+     //      h2 {
+     //           font-size: 30px;
+     //           // color: white;
+     //      }
+     // }
+
 }
 
 .portfolio-container {
+     align-self: center;
      background: white;
-     padding: 40px;
-     border-radius: 20px;
+     background-image: url("../images/portfolio_background.png");
+     background-position: center;
+     padding: 70px 40px;
+     border-radius: 60px;
      box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
 }
 
@@ -29,15 +32,25 @@
      display: flex;
 }
 
-.portfolio-ui {
-     width: 55%;
-     overflow: hidden;
-
+.portfolio-title {
+     // overflow: hidden;
+     width: 25%;
+     // justify-self: center;
+     justify-content: space-around;
+     text-align: center;
+     h2 {
+          position: relative;
+          top: 30%;
+          span {
+               font-weight: 300;
+               letter-spacing: 1.5;
+          }
+     }
 }
 
-.portfolio-text {
-     width: 45%;
+.portfolio-slider {
      padding: 20px 20px;
+     width: 75%;
 
      display: flex;
      flex-direction: column;
@@ -72,4 +85,15 @@
      }
 }
 
+// .arrows {
+//      display: flex;
+//      justify-content: center;
 
+//      .arrow {
+//           background: white;
+//           box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
+//           border-radius: 20px;
+//           margin: 10px;
+//           padding: 10px 20px;
+//      }
+// }

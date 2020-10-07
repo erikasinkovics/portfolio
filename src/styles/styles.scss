@@ -13,9 +13,8 @@
 @import "components/skills";
 @import "components/socials";
 @import "components/timeline";
-
-
-
+@import "components/portfolio-piece";
+@import "components/portfolio-slider";
 
 // Global styles
 html {
@@ -43,7 +42,7 @@ p {
 small {
   font-size: 0.8rem;
   font-weight: 300;
-  line-height: 145%;
+  line-height: 90%;
 }
 
 h5 {
