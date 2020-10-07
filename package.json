@@ -20,6 +20,7 @@
     "gatsby-transformer-sharp": "^2.3.0",
     "gsap": "^2.1.3",
     "hover.css": "^2.3.2",
+    "jquery": "^3.5.1",
     "node-fetch": "^2.6.1",
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1",
@@ -27,7 +28,9 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
+    "react-slick": "^0.27.11",
     "scrollreveal": "^4.0.7",
+    "slick-carousel": "^1.8.1",
     "smooth-scrollbar": "^8.5.0"
   },
   "devDependencies": {
