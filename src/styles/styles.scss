@@ -18,31 +18,45 @@
 
 // Global styles
 html {
-  font-size: 16px;
+  font-size: 14px;
+  margin: 0;
+  
 }
 
 body {
   // background-color: $champagnepink;
   font-family: $body-font;
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  line-height: 0.8;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: $headers-font;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #60AB9A;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 p {
   font-size: 1rem;
   font-weight: 300;
-  line-height: 145%; 
+  margin: 0;
+  line-height: 0.9;
 }
 
 small {
   font-size: 0.8rem;
   font-weight: 300;
-  line-height: 90%;
+  margin: 0;
+  line-height: 0.9;
 }
 
 h5 {

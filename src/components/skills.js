@@ -8,8 +8,8 @@ import BackendImg from "../images/backend.svg"
 const Skills = () => (
   <div className="skills">
     <div className="skills-container">
-      <p className="subtitle">My Expertise</p>
-      <h2>Skillset</h2>
+      {/* <p className="subtitle">My Expertise</p> */}
+      <h2><span>{"<"}</span>Skillset<span>{"/>"}</span></h2>
       <div className="skill-list">
         <SkillCard
           icon={LanguagesImg}
