@@ -23,7 +23,7 @@
      background: white;
      background-image: url("../images/portfolio_background.png");
      background-position: center;
-     padding: 70px 40px;
+     padding: 20px 90px 20px 20px;
      border-radius: 60px;
      box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
 }
@@ -40,10 +40,11 @@
      text-align: center;
      h2 {
           position: relative;
-          top: 30%;
+          top: 44%;
+          padding-left: 2rem;
           span {
                font-weight: 300;
-               letter-spacing: 1.5;
+               letter-spacing: 2;
           }
      }
 }

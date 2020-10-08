@@ -1,32 +1,36 @@
 .portfolio-slider {
-     padding: 20px;
+     padding: 1.5rem 1.5rem 1.5rem 4rem;
 }
 
 .portfolio-piece-card {
-     border-radius: 20px;
+     border-radius: 1.5rem;
      background-color: white;
-     margin: 30px 20px;
+     margin: 2rem 1.5rem;
      box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.04);
 
      .portfolio-piece-text {
-          padding: 20px;
+          padding: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          min-height: 12.5rem;
+          h5 {
+               margin-bottom: 0.5rem;
+          }
      }
 
      .img-placeholder {
-          background-color: burlywood;
-          height: 250px;
-          border-radius: 20px 20px 0px 0px;
-          
+          height: 16rem;
+          border-radius: 20px 20px 0px 0px;    
      }
 
-     small {
-          font-size: 12px;
-          line-height: 90%;
+     small, a {
+          font-size: 0.8rem;
      }
 
      .portfolio-piece-links {
           display: flex;
           justify-content: space-between;
-          margin: 10px 0px;
+          margin: 0.5rem 0px;
      }
 }
