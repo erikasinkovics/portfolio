@@ -6,10 +6,10 @@ import { faTwitter, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-
 
 const Socials = () => (
   <div className="socials">
-    <Link to="#"><FontAwesomeIcon icon={faGithub} /></Link>
-    <Link to="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
-    <Link to="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-    <Link to="#"><FontAwesomeIcon icon={faTwitter} /></Link>
+    <Link to="#" id="github"><FontAwesomeIcon icon={faGithub} /></Link>
+    <Link to="#" id="linkedin"><FontAwesomeIcon icon={faLinkedin} /></Link>
+    <Link to="#" id="instagram"><FontAwesomeIcon icon={faInstagram} /></Link>
+    <Link to="#" id="twitter"><FontAwesomeIcon icon={faTwitter} /></Link>
   </div>
 )
 
