@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Navbar = () => (
      <div className="navbar">
           <div id="navbar-home">
-               <h2>erika</h2>
+               {/* <h2>erika</h2> */}
           </div>
           <div className="navbar-navigation">
                <Link to="#">About</Link>
