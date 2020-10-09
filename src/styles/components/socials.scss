@@ -6,16 +6,53 @@
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
-     background-color: rgba(196, 196, 196, 0.5);
+     // background-color: rgba(196, 196, 196, 0.5);
      padding: 3px;
      border-radius: 5px 0px 0px 5px;
      a {
           font-size: 24px;
-          color: #15181A;
-          opacity: 0.4;
-          padding: 3px;
+          color: #B98EA7;
+          // opacity: 0.4;
+          padding: 9px 8px 8px 10px;
+          border-radius: 20px;
+          background-color: white;
+          margin: 10px;
+          box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.1);
      }
      a:hover {
           opacity: 0.2;
      }
 }
+
+@keyframes float {
+     50% {
+        transform: translate(0, 5px);
+     }
+   }
+
+#github {
+     position: relative;
+     right: 0.25rem;
+     animation: float 2s ease-out infinite;
+}
+
+#linkedin {
+    position: relative;
+    right: 1.5rem;
+    animation: float 2s ease-in infinite;
+}
+
+#instagram {
+     position: relative;
+     right: 1.5rem;
+     animation: float 2s ease-out infinite;
+ }
+
+#twitter {
+     position: relative;
+     right: 0.25rem;
+     animation: float 2s ease-in infinite;
+}
+
+// Animations with CSS @keyframes
+
