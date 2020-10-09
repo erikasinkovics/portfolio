@@ -1,12 +1,23 @@
 .skills {
-     padding: 30px 150px;
+     padding: 80px 150px;
+     background-color: white;
      h2 {
-          text-align: center;
+          text-align: left;
           span {
                font-weight: 300;
                letter-spacing: 2;
           }
      }
+     &:before {
+          content: "";
+          display: block;
+          width: 10rem;
+          height: 1.5rem;
+          background-color: rgba(190, 227, 219, 0.5);
+          margin-bottom: -2rem;
+          margin-left: 0rem;
+     }
+
      .subtitle {
           margin: 0;
           margin-top: 30px;
@@ -19,13 +30,13 @@
 
 .skill-list {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
      grid-template-rows: 1fr;
-     gap: 30px 30px;
+     gap: 10px 10px;
      grid-template-areas:
        ". ."
        ". .";
-     margin-bottom: 25px;
+     // margin-bottom: 25px;
 }
 
 .skill-card-text {
@@ -35,18 +46,13 @@
      span {
           font-weight: 500;
      }
+
 }
 
 .skill-card {
-     background: #FFFFFF;
-     box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
-     border-radius: 20px;
      padding:  2rem  1rem 1rem 1rem;
-     // margin: 15px;
-     // max-width: 260px;
      display: flex;
      flex-direction: column;
-     text-align: center;
      justify-self: center;
      width: 80%;
 
@@ -54,17 +60,28 @@
           height: 80px;
      }
 
+     h4 {
+          text-align: left;
+     }
+
+     
+
+     ul {
+          padding: 1rem 0;
+          margin: 0;
+     }
+     li {
+          list-style: none;
+          text-align: left;
+          line-height: 2rem;
+          font-size: 1.1rem;
+          font-weight: 300;
+     }
+
      .skill-card-text {
-          text-align: center;
           display: flex;
           flex-direction: column;
-          justify-content: space-evenly;
           height: 100%;  
-          h3 {
-               letter-spacing: -1px;
-               font-weight: 600;
-               margin: 30px 0 10px 0;
-          }
           p {
                margin: 0;
                letter-spacing: 1px;
