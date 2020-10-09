@@ -8,7 +8,7 @@ const MyWork = () => (
     <div className="portfolio-container">
       <div className="portfolio-item">
         <div className="portfolio-title">
-          <h2><span>{"<"}</span>Portfolio<span>{"/>"}</span></h2>
+          <h2><span>{"<"}</span>Projects<span>{"/>"}</span></h2>
           <div className="arrows">
           </div>
         </div>

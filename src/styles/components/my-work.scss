@@ -1,5 +1,5 @@
 .my-work {
-     background-color: $champagnepink;
+     background-color: rgba(255, 214, 186, 0.3);
      padding: 100px 150px;
      // .portfolio-title {
      //      text-align: center;
@@ -42,11 +42,23 @@
           position: relative;
           top: 44%;
           padding-left: 2rem;
+
+     &:before {
+          content: "";
+          display: block;
+          width: 11rem;
+          height: 1.5rem;
+          background-color: rgba(190, 227, 219, 0.5);
+          margin-bottom: -2rem;
+          margin-left: 0rem;
+     }
           span {
                font-weight: 300;
                letter-spacing: 2;
           }
      }
+
+     
 }
 
 .portfolio-slider {
@@ -85,16 +97,3 @@
           }
      }
 }
-
-// .arrows {
-//      display: flex;
-//      justify-content: center;
-
-//      .arrow {
-//           background: white;
-//           box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.04);
-//           border-radius: 20px;
-//           margin: 10px;
-//           padding: 10px 20px;
-//      }
-// }
