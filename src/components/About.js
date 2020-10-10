@@ -3,9 +3,10 @@ import ProfilePicture from "../components/profile-picture.js"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+// import resume from "../files/ErikaSinkovics_resume_4Oct2020.pdf" 
 
 const About = () => (
-     <div className="about-container">
+     <div className="about-container" id="about">
           <ProfilePicture/>
           <div className="about-text">
                <h2><span>{"<"}</span>About<span>{"/>"}</span></h2>

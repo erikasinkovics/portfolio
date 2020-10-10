@@ -2,7 +2,7 @@ import React from "react"
 import SkillCard from "./SkillCard.js"
 
 const Skills = () => (
-  <div className="skills">
+  <div className="skills" id="skills">
     <div className="skills-container">
       {/* <p className="subtitle">My Expertise</p> */}
       <h2><span>{"<"}</span>Skillset<span>{"/>"}</span></h2>

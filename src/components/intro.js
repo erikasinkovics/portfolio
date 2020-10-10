@@ -10,7 +10,7 @@ const Intro = () => (
       <p style={{fontWeight: "300", marginTop: "1rem", fontSize: "1.1rem", letterSpacing: 0.1, lineHeight: "1.4"}}>
         I'm a full-stack web developer with a passion for back-end, who finds a lot of joy in solving problems and creating value for users.
       </p>
-      <Link to="#">
+      <Link to="/#projects">
         look at my portfolio
       </Link>
     </div>

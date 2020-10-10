@@ -4,7 +4,7 @@ import BackgroundPortfolio from "../images/portfolio_background.png"
 import PortfolioSlider from "./PortfolioSlider"
 
 const MyWork = () => (
-  <div className="my-work">
+  <div className="my-work" id="projects">
     <div className="portfolio-container">
       <div className="portfolio-item">
         <div className="portfolio-title">
