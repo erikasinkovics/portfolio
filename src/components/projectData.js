@@ -11,17 +11,17 @@ const projectData = [
           tags: ["Ruby", "Rails", "Pundit", "Action Cable"],
           website: "https://unpakked.app/",
           gitHub: "https://github.com/erikasinkovics/unpakked",
-          thumbnail: "./images/portfolio_unpakked.png",
+          thumbnail: UnpakkedImg,
           live: false
      },
      {
           id: 2,
           title: "🎻 Legato",
           description: "A web app connecting classical music enthusiasts with local musicians. Prototype built and deployed in 10 days during Le Wagon's Full-Stack Developer Bootcamp. I had the opportunity to work on the back-end of the application - including the search, booking, review features and the live chat built with Action Cable.",
-          tags: [],
+          tags: ["Ruby", "Rails", "Action Cable", "HTML", "JavaScript", "CSS"],
           website: "https://legatoconcerts.com/",
           gitHub: "https://github.com/boranzaza/legato/",
-          thumbnail: {LegatoImg},
+          thumbnail: LegatoImg,
           live: true
      },
      {
@@ -31,7 +31,7 @@ const projectData = [
           tags: [],
           website: "https://erikasinkovics.github.io/memory/",
           gitHub: "https://github.com/erikasinkovics/memory",
-          thumbnail: {MemoryGameImg},
+          thumbnail: MemoryGameImg,
           live: true
      },
      {
@@ -41,7 +41,7 @@ const projectData = [
           tags: ["Rails", "Ruby", "CRUD", "Pundit"],
           website: "http://my-image-repo.herokuapp.com/",
           gitHub: "https://github.com/erikasinkovics/image-repository",
-          thumbnail: {},
+          thumbnail: "",
           live: false
      },
      {
@@ -51,7 +51,7 @@ const projectData = [
           tags: ["Gatsby", "ReactJS", "HTML", "Sass", "JavaScript", "Heroku" ],
           website: "https://erikasinkovics.github.io/",
           gitHub: "https://github.com/erikasinkovics/portfolio",
-          thumbnail: {},
+          thumbnail: "",
           live: true
      },
      {
@@ -61,7 +61,7 @@ const projectData = [
           tags: [],
           website: "",
           gitHub: "https://github.com/erikasinkovics/plantsitter-revamp",
-          thumbnail: {PlantSitterImg},
+          thumbnail: PlantSitterImg,
           live: false
 
      },

@@ -2,7 +2,9 @@ import React from "react";
 
 const Project = (props) => (
      <div className="portfolio-piece-card">
-          <img src={props.thumbnail} />
+          <img 
+               className="portfolio-image"
+               src={props.thumbnail} />
           <div className="portfolio-piece-text">
                <div>
                     <h5>{props.title}</h5>
