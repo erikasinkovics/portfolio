@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar.js"
 import Socials from "../components/Socials.js"
 import Intro from "../components/Intro.js"
 import Skills from "../components/Skills.js"
-import MyWork from "../components/MyWork.js"
+import Projects from "../components/Projects.js"
 // import Timeline from "../components/Timeline.js"
 import About from "../components/About"
 
@@ -20,7 +20,7 @@ const IndexPage = () => (
     <Intro/>
     <About/>
     <Skills/>
-    <MyWork/>
+    <Projects/>
     {/* <Timeline/> */}
   </div>
 )

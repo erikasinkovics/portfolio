@@ -19,11 +19,11 @@ const skillData = [
           group: "Design",
           list: ["Prototyping", "Wireframing", "Figma"]
      },
-     {    
-          id: 5,
-          group: "Other Softwares",
-          list: ["SAP", "MS Excel", "MS Navision"]
-     }
+     // {    
+     //      id: 5,
+     //      group: "Other Softwares",
+     //      list: ["SAP", "MS Excel", "MS Navision"]
+     // }
 ]
 
 export default skillData

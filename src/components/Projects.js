@@ -1,10 +1,8 @@
 import React from "react"
-// import plantsitteriui from "../images/plantsitterredesign1.png"
-// import BackgroundPortfolio from "../images/portfolio_background.png"
-import PortfolioSlider from "./PortfolioSlider"
+import ProjectSlider from "./ProjectSlider"
 
-const MyWork = () => (
-  <div className="my-work" id="projects">
+const Projects = () => (
+  <div className="my-work container" id="projects">
     <div className="portfolio-container">
       <div className="portfolio-item">
         <div className="portfolio-title">
@@ -13,11 +11,11 @@ const MyWork = () => (
           </div>
         </div>
         <div className="portfolio-slider">
-          <PortfolioSlider/>
+          <ProjectSlider/>
         </div>
       </div>
     </div>
   </div>
 )
 
-export default MyWork
+export default Projects

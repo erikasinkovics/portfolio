@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = (props) => (
+const ProjectCard = (props) => (
      <div className="portfolio-piece-card">
           <img 
                className="portfolio-image"
@@ -18,4 +18,4 @@ const Project = (props) => (
      </div>
 )
 
-export default Project;
+export default ProjectCard;
