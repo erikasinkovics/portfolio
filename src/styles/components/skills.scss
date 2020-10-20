@@ -1,5 +1,5 @@
 .skills {
-     padding: 80px 150px;
+     // padding: 80px 150px;
      background-color: white;
      h2 {
           text-align: left;
@@ -30,13 +30,12 @@
 
 .skill-list {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
      grid-template-rows: 1fr;
      gap: 0px 0px;
      grid-template-areas:
        ". ."
        ". .";
-     // margin-bottom: 25px;
 }
 
 .skill-card-text {

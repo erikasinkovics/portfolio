@@ -2,12 +2,14 @@
      background: rgba(255, 255, 255, 0.6);
      backdrop-filter: blur(10px);
      position: fixed;
+     // left: 0;
      z-index: 100;
      width: 100%;
      display: flex;
      padding: 25px 10px;
-     align-items: center;
-     justify-content: space-between;
+     width: 100%
+     // align-items: center;
+     // justify-content: space-between;
 }
 
 #navbar-home {
