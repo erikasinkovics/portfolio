@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 
 const Intro = () => (
-  <div className="intro">
+  <div className="intro container" id="home">
     <div className ="intro-content">
       <h4 style={{fontWeight: "400", marginBottom: "1.5rem"}}>hi! 👋 my name is</h4>
       <h1 style={{letterSpacing: 0.5}}>Erika Sinkovics</h1>
