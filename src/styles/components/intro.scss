@@ -1,28 +1,44 @@
+$breakpoint-tablet-lg: 1024px;
+$breakpoint-tablet-md: 768px;
+$breakpoint-tablet-sm: 540px;
+$breakpoint-phone: 414px;
+
 .intro {
-     // width: 100%;
      background-color: white;
-     // background: linear-gradient(90deg, rgba(222, 222, 224, 0.2) 43.75%, rgba(196, 196, 196, 0) 77.6%);
-     // mix-blend-mode: normal;
+     background-image: url("../images/intro_background.png");
+     background-position: center;
 
      .intro-content {
           width: 30%;
-          margin: 150px 0px;
+          margin: 100px 0px;
+          @media (max-width: $breakpoint-tablet-lg) {
+               width: 50%;
+          }
+          @media (max-width: $breakpoint-tablet-md) {
+               width: 70%;
+          }
+          @media (max-width: $breakpoint-tablet-sm) {
+               width: 100%;
+               margin-bottom: 0;
+          }
      }
 
      h1 {
           letter-spacing: -0.02em;
+          line-height: 1;
           font-size: 40px;
           margin: 0;
           color: rgba(60, 55, 68, 1);
      }
+
      p {
           color: #3D405B;
           letter-spacing: 0.16em;
           font-size: 12px;
           line-height: 16px;
-          margin-bottom: 20px;
+          margin-bottom: 2rem;
      }    
-     a {
+     .projects-btn {
           font-weight: 400;
           font-size: 12px;
           // text-transform: uppercase;
@@ -48,4 +64,10 @@
      margin-bottom: 20px;
      margin-top: 10px;
      font-weight: 300;
+}
+
+.intro.container {
+     @media (max-width: $breakpoint-tablet-sm) {
+          padding-bottom: 0;
+     }
 }

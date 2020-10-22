@@ -1,18 +1,19 @@
-.profile-picture {
-     // z-index: 1;
-     // font-size: 0;
-     // background: #FFFFFF;
-     // border-radius: 5px 5px 58px 5px;
-     // position: absolute;
-     // right: 200px;
-     // top: 130px;
-     // padding: 8px;
-     margin: auto;
-     
+$breakpoint-tablet-lg: 1024px;
+$breakpoint-tablet-md: 768px;
+$breakpoint-tablet-sm: 540px;
+$breakpoint-phone: 414px;
 
+.profile-picture {
+     
+     margin: auto;
+      
      img {
           opacity: 0.95;
           border-radius: 5px;
           box-shadow: 4px 4px 30px 10px rgba(0, 0, 0, 0.1);    
+     }
+
+     @media (max-width: $breakpoint-tablet-lg) {
+          display: none;
      }
 }

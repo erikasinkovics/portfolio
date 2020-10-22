@@ -16,17 +16,18 @@ class Skills extends Component {
     );
 
     return (
-      <div className="skills container" id="skills">
-        <div className="skills-container">
-          <h2><span>{"<"}</span>Skillset<span>{"/>"}</span></h2>
-            <div className="skill-list">
-              {skillComponents}
-            </div>
+      <div className="skills" id="skills">
+        <div className="container">
+          <div className="skills-container">
+            <h2><span>{"<"}</span>Skillset<span>{"/>"}</span></h2>
+              <div className="skill-list">
+                {skillComponents}
+              </div>
+          </div>
         </div>
       </div>
     );
   }
 }
-
 
 export default Skills

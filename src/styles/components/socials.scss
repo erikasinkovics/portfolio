@@ -1,3 +1,5 @@
+$breakpoint-tablet-sm: 540px;
+
 .socials {
      position: fixed;
      right: 0;
@@ -6,7 +8,6 @@
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
-     // background-color: rgba(196, 196, 196, 0.5);
      padding: 3px;
      border-radius: 5px 0px 0px 5px;
      a {
@@ -54,5 +55,39 @@
      animation: float 2s ease-in infinite;
 }
 
-// Animations with CSS @keyframes
+@media (max-width: $breakpoint-tablet-sm) {
+     .socials {
+          position: relative;
+          flex-direction: row;
+          justify-content: flex-start;
+          margin: 0;
+          margin-top: 2rem;
+          width: 70%;
+          #github,
+          #linkedin,
+          #instagram,
+          #twitter {
+               right: 0;
+               animation: none;
+               margin: auto 1rem 0px 0px;
+          }
+     }
+     .socials-container {
+          padding-top: 25px;
+          padding-left: 0;
+          :first-child {
+               margin-left: 0;
+          }
+     }
+
+     .vertical {
+          flex-direction: column !important;
+     }
+}
+
+@media (min-width: $breakpoint-tablet-sm) {
+     .socials.container {
+          padding: 0 !important;
+     }
+}
 

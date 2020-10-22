@@ -2,16 +2,17 @@ import React from "react";
 
 const ProjectCard = (props) => (
      <div className="portfolio-piece-card">
-          <img 
-               className="portfolio-image"
-               src={props.thumbnail} />
+          <div className="portfolio-image" style={{"backgroundImage": `url(${props.thumbnail})`}}></div>
           <div className="portfolio-piece-text">
                <div>
                     <h5>{props.title}</h5>
-                    <small>{props.description}</small>
+                    <small id="portfolio-description">{props.description}</small>
                </div>
+               {/* <div className="portfolio-tags">
+                    
+               </div> */}
                <div className="portfolio-piece-links">
-                    <a href={props.website} >website →</a>
+                    { props.live ? <a href={props.website}>website →</a> : <small>[coming soon]</small> }
                     <a href={props.gitHub} >github →</a>
                </div>
           </div>

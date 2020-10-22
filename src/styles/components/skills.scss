@@ -1,35 +1,42 @@
+// Breakpoints
+$breakpoint-tablet-lg: 1024px;
+$breakpoint-tablet-md: 768px;
+$breakpoint-tablet-sm: 540px;
+$breakpoint-phone: 414px;
+
 .skills {
-     // padding: 80px 150px;
      background-color: white;
-     h2 {
-          text-align: left;
-          span {
-               font-weight: 300;
-               letter-spacing: 2;
+     .container {
+          h2 {
+               text-align: left;
+               // z-index: 100;
+               span {
+                    font-weight: 300;
+                    letter-spacing: 2;
+               }
+          }
+          h2:before {
+               content: "";
+               // z-index: 99;
+               display: block;
+               width: 10rem;
+               height: 1.5rem;
+               background-color: rgba(190, 227, 219, 0.5);
+               // position: absolute;
+               margin-bottom: -2rem;
+               margin-left: 0rem;
           }
      }
-     &:before {
-          content: "";
-          display: block;
-          width: 10rem;
-          height: 1.5rem;
-          background-color: rgba(190, 227, 219, 0.5);
-          margin-bottom: -2rem;
-          margin-left: 0rem;
-     }
+     
+}
 
-     .subtitle {
-          margin: 0;
-          margin-top: 30px;
-          margin-bottom: -35px;
-          text-transform: uppercase;
-          font-size: 14px;
-          text-align: center;
-     }
+.skills-container {
+     width: 100%;
 }
 
 .skill-list {
      display: grid;
+     margin: auto;
      grid-template-columns: 1fr 1fr 1fr 1fr;
      grid-template-rows: 1fr;
      gap: 0px 0px;
@@ -38,15 +45,31 @@
        ". .";
 }
 
-.skill-card-text {
-     margin-left: 20px;
-     margin-right: 16px;
-     text-align: justify;
-     span {
-          font-weight: 500;
+@media (max-width: $breakpoint-tablet-md) {
+     .skill-list {
+          padding-left: 50px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          gap: 0px 0px;
+          grid-template-areas:
+            ". ."
+            ". .";
      }
+   }
 
+@media (max-width: $breakpoint-tablet-sm) {
+     .skill-list {
+          padding-left: 20px;
+     }
 }
+
+@media (max-width: $breakpoint-phone) {
+     .skill-list {
+          padding-left: 0px;
+     }
+}
+
 
 .skill-card {
      padding:  2rem  0.5rem 0.5rem 0.5rem;
@@ -55,18 +78,12 @@
      justify-self: center;
      width: 80%;
 
-     img {
-          height: 80px;
-     }
-
      h4 {
           text-align: left;
      }
 
-     
-
      ul {
-          padding: 1rem 0;
+          padding: 0.5rem 0;
           margin: 0;
      }
      li {
@@ -76,16 +93,4 @@
           font-size: 1.1rem;
           font-weight: 300;
      }
-
-     .skill-card-text {
-          display: flex;
-          flex-direction: column;
-          height: 100%;  
-          p {
-               margin: 0;
-               letter-spacing: 1px;
-               align-self: stretch;
-          }
-     }
-     
 }

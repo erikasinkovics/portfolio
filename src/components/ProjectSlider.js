@@ -12,34 +12,37 @@ export default class ProjectSlider extends Component {
       dots: true,
       infinite: true,
       speed: 600,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 1,
       initialSlide: 0,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1200,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
             dots: true
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 940,
           settings: {
+            swipeToSlide: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1,
-            dots: false
+            dots: true
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 540,
           settings: {
+            swipeToSlide: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: false,
+            arrows: false,
           }
         }
       ]

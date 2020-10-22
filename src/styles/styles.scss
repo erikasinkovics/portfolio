@@ -10,8 +10,14 @@
 @import "components/profile-picture";
 @import "components/skills";
 @import "components/socials";
-@import "components/portfolio-piece";
 @import "components/about";
+
+
+// Breakpoints
+$breakpoint-tablet-lg: 1024px;
+$breakpoint-tablet-md: 768px;
+$breakpoint-tablet-sm: 540px;
+$breakpoint-phone: 414px;
 
 // Global styles
 html {
@@ -85,4 +91,31 @@ h1 {
 
 .container {
   padding: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: $breakpoint-tablet-lg) {
+  .container {
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: $breakpoint-tablet-md) {
+  .container {
+    padding: 50px 80px;
+  }
+}
+
+@media (max-width: $breakpoint-tablet-sm) {
+  .container {
+    padding: 50px 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
 }
