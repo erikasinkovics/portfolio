@@ -10,6 +10,7 @@ export default class ProjectSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      lazyLoad: true,
       infinite: true,
       speed: 600,
       slidesToShow: 3,
@@ -26,7 +27,7 @@ export default class ProjectSlider extends Component {
           }
         },
         {
-          breakpoint: 940,
+          breakpoint: 768,
           settings: {
             swipeToSlide: true,
             slidesToShow: 1,
@@ -43,6 +44,8 @@ export default class ProjectSlider extends Component {
             slidesToScroll: 1,
             dots: false,
             arrows: false,
+            autoplay: true,
+            autoplaySpeed: 4000,
           }
         }
       ]
